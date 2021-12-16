@@ -7,7 +7,7 @@ class Dog{
     private hunger: number;
     private sex: string;
 
-    constructor(name: string = 'rexi', age: number = 3, hunger: number = 4 , sex: string = 'female'){
+    constructor(name: string = 'rexi', age: number = 3, hunger: number = 4 , sex: 'male' | `female` = 'female'){
         this.name = name;
         this.age = age;
         this.hunger = hunger;
